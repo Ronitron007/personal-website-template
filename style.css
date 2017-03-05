@@ -1,0 +1,603 @@
+body {
+  background-color:azure;
+  font-family: 'Gloria Hallelujah', cursive;
+  line-height: 1.2;
+  text-align: center;
+  padding: 10px 0 0 200px;
+  background-image:url('back.jpeg');
+  background-size: cover;
+  background-repeat:repeat-x;
+
+}
+h1{
+  color: rgba(1, 10, 0, 0.94);
+  
+}
+h1:hover {
+  color: rgba(0, 0, 0, 0.62);
+}
+
+
+
+
+.imagexcropper {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 40px auto 0;
+
+
+  
+}
+
+#dp {
+  margin:  auto;
+  height: 100%;
+  width: auto;
+}
+
+#gig
+{ 
+  
+  align-content: center;
+  height: 640px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 1s linear 0s;
+  -moz-transition: all 1s linear 0s;
+  -o-transition: all 1s linear 0s;
+  -ms-transition: all 1s linear 0s;
+  transition: all 4s linear 0s;
+  -webkit-box-shadow: 0px 0px 100px #4e3d3d;
+
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  position: absolute;
+  color: white;
+  bottom: ;
+  left: 42%;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  
+  bottom: 10;
+  right: 140px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+.dropdown-content a {
+  color: black;
+  height: 20px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  float: left;
+}
+span{
+  text-align: center;
+  font-size: 17px;
+  padding: 8px;
+
+}
+/* Change color of dropdown links on hover */
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display:block;
+  width: auto;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+
+
+
+
+
+a{ 
+  text-decoration:none;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 60px auto;
+  color: aliceblue;
+  transition-duration: 10s;
+
+}
+
+
+#myAnswer{
+  height: auto;
+  width: 810px;
+  margin-top:8px;
+  border-radius: 5%;
+  font-family: 'Amatic SC', cursive;
+  position: relative;
+  top: 0px;
+  z-index: auto 0;
+  background-color:rgba(255, 255, 252, 0.68);
+  opacity:.001;
+  font-size:40px;
+  color: #fc0d0d;
+  background-image: url(glass2.jpg);
+  box-shadow: 0px 0px 100px #ff0000;
+  transition-duration: 20000000000s;
+
+}
+#myAnswer::first-letter {
+  font-size: 80px;
+}
+.thumb span { 
+  display: inline-block;
+  visibility:hidden;
+  
+  
+}
+
+
+
+.thumb:hover span #myAnswer{ 
+
+  visibility:visible;
+  opacity: .9;
+  transition-duration:   4s ;
+}
+.thumb img {
+  
+  position: relative;
+  float: left;
+  top: -40px;
+  left: 0;
+ width: 40px;
+}
+
+.thumb:hover img  {
+  transform: rotateY(360deg);
+  transition-duration: .75s;
+  opacity 1;
+  visibility:visible; 
+}
+.thumb:after {
+  content: "";
+  position: fixed;
+  top: 10px;
+  border-bottom-style: double ;
+  border-color: black;
+  width: 70%;
+  top: 10%;
+  right: 15%;
+}
+
+
+
+.bigboy{
+  text-align: center;
+  width: auto;
+  transition: all 10s linear 
+}
+
+.knw_more{
+  width: auto;
+float: left;
+position: absolute;
+bottom:0px ;  
+left: -100px; 
+transition: 1.3s;
+}
+.knw_more:hover {
+left: 0;
+}
+.knw_more #muse:hover{
+  left: 0;
+  background-color: #003871} 
+.knw_more:hover #ass{
+  visibility: collapse;
+  left: 80px;} 
+#muse{
+  display: block;
+  background-color: aliceblue;
+  width: 50px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.29);
+}
+
+#ass{
+  position: absolute;
+  bottom: 85px;
+  padding: 10px;
+  left: 100px;
+  visibility: visible;
+  transition: .3s;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+  margin: auto ;
+  color: #021121;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.39)
+} 
+.musical{
+  position: absolute;
+  width: 1136px;
+  height: 800px;
+  border:2px solid black; 
+  top: -180px;
+  left: 207px;
+ float: left;
+  visibility: collapse;
+  opacity: .001;
+  background-color:black;
+  transition: 1.5s;
+}
+
+a:hover .musical{
+  visibility: visible;
+  transition-duration: 2.4s;
+  opacity: 1;
+}
+#mama
+{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  
+}
+#mama::first-letter {
+font-size: 40px;
+}
+
+.haha{
+  position: absolute;
+  display: inline-block;
+  left: 20%;
+  align-self: center;
+}
+.haha1{
+  display:  inline-flex;
+
+}
+.haha2{
+  display: flex;
+
+}
+.haha3{
+display: flex;
+}
+
+.wrapper {
+  position: relative;
+  width: 100px;
+  -webkit-perspective: 1000px;
+  perspective: 10000px;
+
+}
+#gigi{
+color: black;
+}
+.card {
+  width: 120px;
+  max-width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 1s linear 0s;
+  -moz-transition: all 1s linear 0s;
+  -o-transition: all 1s linear 0s;
+  -ms-transition: all 1s linear 0s;
+  transition: all .1s linear 0s;
+  -webkit-box-shadow: 0px 0px 10px #aaa;
+  box-shadow: 0px 0px 10px #aaa;
+  background-color: #000000;
+}
+
+.wrapper:hover .card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg)  scale3d(1,1,1);
+  transition-duration: 1s;
+  z-index: 1;
+}
+
+.face {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+
+/* Step 2. Change the Image */
+
+.front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(AvB.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden
+}
+#tiesto .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(tiesto.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#dvlm .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(dvlm.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#hans .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(hans.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#black .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(blackkeys.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Daft .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(Daft.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+#Macklemore .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(Macklemore.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Gaye .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(Marvin_Gaye_in_1973.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Martin .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(martin.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Diplo .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(diplo.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Dillon .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(dillon.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Goulding .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(goulding.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#King .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(king.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Marshmello .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(marsh.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Mouse .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(deadmau5-review-5a26b22e-ee5f-4a06-9c4e-19697caf3159.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Elton .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(elton.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Kygo .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(Kygo.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Dylan .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(dylan.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#King .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(king.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Bruno .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(bruno.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Florence .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(florence.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Doorn .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(doorn.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#Martin .front {
+  position: absolute;
+  width: 100%;
+  align-content: center;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url(martin.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+.back {
+  position: absolute;
+  color: #ffffff;
+  font-family: 'Waiting for the Sunrise', monospace;
+  font-size: 10px;
+  background-color: black;
+  transform: rotateY(180deg);
+  
+
+}
+#bb{
+  text-align: center;
+ }
+
